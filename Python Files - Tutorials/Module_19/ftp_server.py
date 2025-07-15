@@ -4,7 +4,7 @@ from pyftpdlib.authorizers import DummyAuthorizer
 import os
 
 # Path to shared folder (e.g., Download folder)
-shared_path = "/storage/emulated/0/My_FTP server"
+shared_path = "/storage/emulated/0/My_FTP_server"
 
 authorizer = DummyAuthorizer()
 authorizer.add_user("user", "12345", shared_path, perm="elradfmwMT")
