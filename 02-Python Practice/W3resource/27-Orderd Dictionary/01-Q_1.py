@@ -13,6 +13,6 @@ print("\n\n")
 o2 = {1 : 6, 2 : 5 , 3 : 4 , 4 : 3 , 5 : 2 }
 
 o3 = {1 : 6, 2 : 5 , 3 : 4  , 5 : 2 ,4 : 3}
-print(o1 == o2)
-print(o1 == o3)
-print(o2 == o3)
+print(OrderedDict(o1) == OrderedDict(o2))
+print(OrderedDict(o1) == OrderedDict(o3))
+print(OrderedDict(o2) == o3)
